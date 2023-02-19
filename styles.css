@@ -1,0 +1,139 @@
+body {
+	background-image: url("img/background3.jpg");
+	background-color: #cccccc;
+/*	filter: blur(8px);  Добавить только к background image*/
+/*  	-webkit-filter: blur(8px);*/
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.name {
+	width: 600px;
+	margin-left: 50px;
+}
+
+h1{
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 10mm;
+	color: #eeeeee;
+	font-weight: 400;
+	margin-left: 3%;
+}
+
+h3 {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 7mm;
+	color: #eeeeee;
+	font-weight: 100;
+	margin-left: 5%;
+}
+
+.navigation {
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+nav, a {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 5mm;
+	color: #eeeeee;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+}
+
+p {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 5mm;
+	color: #eeeeee;
+	line-height:2;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 3%;
+	flex-wrap: wrap;
+	height: 500px;
+	margin-bottom: 5%;
+}
+
+.aboutmephoto {
+	float: left;
+	margin-left: 1%;
+	height: 500px;
+	width: 500px;
+}
+
+img {
+	border-radius: 20%;
+	height: 100%;
+	width: 100%;
+}
+  
+.aboutme {
+	float: right;
+	height: 260px;
+	width: 600px;
+	background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+/*    border: 3px solid #eeeeee;*/
+    border-radius: 2%; 
+    padding: 10px;
+    margin-top: 7%;
+    margin-right: 1%;
+}
+
+.favvideo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.vidheader {
+	margin-bottom: 50px;
+}
+
+footer {
+	margin-bottom: 80px;
+}
+
+.contacts {
+	margin-top: 85px;
+	margin-bottom: 85px;	
+}
+
+.mail, .github, .telegram {
+	height: 64px;
+	width: 64px;
+}
+
+.flexcont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.up {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+}
